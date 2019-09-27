@@ -1,6 +1,18 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 .section1{
-    background-image: url("/.IP3-master/assets/backgrounds/h_img.jpg");
+    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 160px;
+    color:white;
+    font-size: 
+}
+.section1 h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.firsttext{
+    text-align: center;
+    
 }
