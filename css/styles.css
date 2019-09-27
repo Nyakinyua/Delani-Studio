@@ -6,13 +6,26 @@
     text-align: center;
     padding: 160px;
     color:white;
-    font-size: 
 }
 .section1 h1{
     font-size: 80px;
     font-weight: bolder;
 }
-.firsttext{
-    text-align: center;
-    
+.first-text{
+    font-size:20px;
+    line-height: 1.6;
+}
+.first-text h1{
+    font-size:65px;
+}
+.section3{
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding:140px;
+    font-size:30px;
+}
+.section3 h2{
+    font-size:60px;
 }
