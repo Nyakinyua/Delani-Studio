@@ -28,4 +28,17 @@
 }
 .section3 h2{
     font-size:60px;
+}    
+.section6{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:150px;
+
+}
+.section6 #area1{
+    margin-bottom: 10px;
+    padding:7px 10px;
+    border:1px solid #ffffff
+
 }
