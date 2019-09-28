@@ -7,66 +7,57 @@
    <title>Delani Studios</title>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <link href="js/jquery-3.4.1.js">
+    <script src="js/scripts.js"></script>
  </head>
  <section>
  <body>
      <center>
-     <div class="container-fluid"></div>
+    <div class="container-fluid"></div>
         <div class="section1">
             <div class="part1">
-                     <img src="assets/logo/logo.png"><BR>
-                     <h1><bold><BR>WELCOME<BR>TO DELANI STUDIOS</bold></h1><BR><BR>
-                     <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<BR><BR><BR><BR><BR></h5>
-                     <img src="assets/mouse_click.png">
+                    <img src="assets/logo/logo.png"><BR>
+                        <h1><bold><BR>WELCOME<BR>TO DELANI STUDIOS</bold></h1><BR><BR>
+                        <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<BR><BR><BR><BR><BR></h5>
+                    <img src="assets/mouse_click.png">
             </div>
         </div>
-        <div class="section2">
-               <div class="first-text">
-                   <h1>ABOUT US</h1><BR>
-                   <p>When you work with us, you are part of a team of committed collaborators.All aspects of our software development process are integrated, interactive<br> and agile.
-                   <p>Our approach unifies design, development and project management to create exceptional products.</p>
-                   <p>We start each project by understanding our business goals,the user's needs and the products requirements.</p>
-                    <p>Then we help translate them into effective and elegant solutions</p>
-               </div>
-           </div>
+    <div class="section2">
+        <div class="first-text">
+            <h1>ABOUT US</h1><BR>
+                <p>When you work with us, you are part of a team of committed collaborators.All aspects of our software development process are integrated, interactive<br> and agile.
+                <p>Our approach unifies design, development and project management to create exceptional products.</p>
+                <p>We start each project by understanding our business goals,the user's needs and the products requirements.</p>
+                 <p>Then we help translate them into effective and elegant solutions</p>
+        </div>
+    </div>
             <div class="section3">
                 <div class="second-text">
                 <h1>SERVICES</h1><BR>
             <p>Before We sign a contract or write a line of code, our team will spend the necessary <br> time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>Based on your requirements, we can provide a complete offering or just the pieces<br>you need.  </p>
-        </div>
-    </div>
-          <div class="section4">
-                           <h2>WHAT WE DO</h2>
+                </div>
+            </div>
+            <div class="section4">
+                <h2>WHAT WE DO</h2>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="onClick">
-                            <div id="click">
-                                <img src="assets/services_icons/design_icon.png">
-                                <div class="caption">
-                                    <p>DESIGN</p>
-                                </div>
-                                <div id="joy1">
-                                    <P>our design</P>
-                            </div>
-                            </div>
-                        </div>
-                    <!-- <img class="design" src="assets/services_icons/design_icon.png">
+                       <img class="design" src="assets/services_icons/design_icon.png">
                    <h3>Design</h3>
-                    <p class=design1> Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                    <p class=para1> Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                     </div>
             
                 <div class="col-md-4">
-                    <img src="assets/services_icons/dev_icon.png">
+                    <img class="development" src="assets/services_icons/dev_icon.png">
                    <h3>Development</h3>
-                   <p>Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                   <p class="para2">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                 </div>
-                   <div class="col-md-4">
-                       <img src="assets/services_icons/product_icon.png">
+                    <div class="col-md-4">
+                       <img class="product" src="assets/services_icons/product_icon.png">
                    <h3>Product Management</h3>
-                    <p>Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+                    <p class="para3">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                     </div>
                 </div>
-          </div>
+            </div>
 
                 <div class="section5">
                         <h1>PORTFOLIO</h1>
@@ -114,11 +105,15 @@
                         <input style="background-color:transparent" type="text" class="contact-email" id="contact-email" placeholder="email">
                     </div>
                 </div>
-                <textarea style="background-color:transparent" name="Name" id="contact-message" cols="100" rows="10" placeholders="Your message here..."></textarea>
+                <textarea style="background-color:transparent" name="Name" class="contact-message" id="contact-message" cols="100" rows="10" placeholders="Your message here..."></textarea>
                  </textarea><br>
                  <input type="submit" value="Submit">
             </form><br>
             </div>
+
+            <div id="message">
+                <p>Thank you  <span class="contact-name"></span> and <span class="contact-email"></span> for contacting us. Your <span class="contact message"></span> has been received.<br>Delani Studios,<br>Amazing people making amazing designs in a fun environment</p>
+             </div>
             <div class="section7">
                 <footer>
             <a href="https://www.behance.net/"><img src="assets/social_icons/behance.png"></a>
@@ -131,12 +126,10 @@
             <a href="https://pops.stumbleupon.com"><img src="assets/social_icons/stumble_upon.png"></a>
             <a href="https://twitter.com/login?lang=en"><img src="assets/social_icons/twitter.png"></a>
             <a href="https://www.youtube.com"><img src="assets/social_icons/you_tube.png"></a><br><br>
-            <h4>DELANI STUDIO <br>2016</h4>
+            <h4>DELANI STUDIO <br>Copyright (c)2016 </h4>
                 </footer>
             </div>
     </div>
-   
--->
  </center>
 </body>
 </html>

@@ -14,6 +14,7 @@
 .first-text{
     font-size:20px;
     line-height: 1.6;
+    padding: 30px;
 }
 .first-text h1{
     font-size:65px;
@@ -24,31 +25,38 @@
     background-repeat: no-repeat;
     color: white;
     padding:160px;
-    font-size:30px;
+    font-size:25px;
+    font-weight: 500;
 }
 .section3 h2{
     font-size:60px;
 } 
 .section4 h2{
-    padding:30px;
+    padding:40px;
 }
-.section5{
-     padding:5px;
-}   
+ 
 .section6{
     background-image: url("/assets/backgrounds/c_image.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     padding:100px;
     margin-top: 60px;
+    border:1px solid #000;
+    color:white;
+    font-size: 20px;
 
 }
-.section6{
-    border:1px solid #000;
+.section6 h1{
+    font-size:30px;
+    font-weight: 800;
+    
 }
 .section7{
     margin-top:40px;
 }
 .section4 p{
     display: none;
+}
+#message{
+    display:none;
 }
