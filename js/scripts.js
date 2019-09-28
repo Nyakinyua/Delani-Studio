@@ -1,12 +1,14 @@
 $(document).ready(function() {
  $(".design").click(function() {
-        $(".para1").toggle();
+        $(".icon1").toggle(800);
+        $(".para1").toggle(800);
         });
 $(".development").click(function() {
          $(".para2").toggle();
+         $(".development").toggle();
         });
-$(".project").click(function() {
-        $(".para3").toggle();
+$(".product").click(function() {
+        $(".para3").toogle();
         });
 
         
