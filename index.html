@@ -13,6 +13,7 @@
  <body>
    <center>
     <div class="container-fluid"></div>
+    <div class="jumbotron">
         <div class="section1">
             <div class="part1">
                     <img src="assets/logo/logo.png"><BR>
@@ -21,6 +22,7 @@
                     <img src="assets/mouse_click.png">
             </div>
         </div>
+    </div>
     <div class="section2">
         <div class="first-text">
             <h1>ABOUT US</h1><BR>
@@ -48,12 +50,15 @@
                 </div>
             
                 <div class="col-md-4">
-                    <img class="development" src="assets/services_icons/dev_icon.png">
+                    <div class="development">
+                    <img class="icon2" src="assets/services_icons/dev_icon.png">
                    <h3>Development</h3>
                    <p class="para2">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                 </div>
+            </div>
                     <div class="col-md-4">
-                       <img class="product" src="assets/services_icons/product_icon.png">
+                        <div class="product">
+                       <img class="icon3" src="assets/services_icons/product_icon.png">
                    <h3>Product Management</h3>
                     <p class="para3">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
                     </div>
@@ -108,13 +113,13 @@
                 </div>
                 <textarea style="background-color:transparent" name="Name" class="contact-message" id="contact-message" cols="100" rows="10" placeholders="Your message here..."></textarea>
                  </textarea><br>
-                 <input type="submit" value="Submit">
+                 <input type="submit"  class="sbmt1"value="Submit">
             </form><br>
             </div>
 
-            <div id="message">
+           <!-- <div id="message">
                 <p>Thank you  <span class="contact-name"></span> and <span class="contact-email"></span> for contacting us. Your <span class="contact message"></span> has been received.<br>Delani Studios,<br>Amazing people making amazing designs in a fun environment</p>
-             </div>
+             </div>-->
             <div class="section7">
                 <footer>
             <a href="https://www.behance.net/"><img src="assets/social_icons/behance.png"></a>
@@ -133,6 +138,6 @@
     </div>
  </center>
 </body>
-<script src="js/jquery-3.4.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 </html>
