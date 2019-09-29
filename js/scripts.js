@@ -16,7 +16,7 @@ $(".product").click(function() {
 
 
 //form inputs
- /*$(".sbmt1").click(function(event)
+ $(".sbmt1").click(function(event)
  {
    event.preventDefault();
  var name=$("#contact-name").val();
@@ -32,13 +32,48 @@ var email=$("#contact-email").val();
    }
    else{
    alert("Thank you "+ name + "," + " your messege has been received and is being acted on. .");}
- });*/
+ });
  //portfolio section
-            $("#photo2").mouseover(function(){
-                $("#p2").toggle();
-                }).mouseout(function(){
-                  $("#p2").hide();
-                });
- 
+                
+ $("#photo1").hover(function() {
+        $("#photo1").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+        $("#photo1").stop().animate({opacity:"1"},"1");
+               });               
+ $("#photo2").hover(function() {
+         $("#photo2").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+        $("#photo2").stop().animate({opacity:"1"},"1");
+});
+$("#photo3").hover(function() {
+        $("#photo3").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo3").stop().animate({opacity:"1"},"1");
+});
+$("#photo4").hover(function() {
+        $("#photo4").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo4").stop().animate({opacity:"1"},"1");
+});
+$("#photo5").hover(function() {
+        $("#photo5").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo5").stop().animate({opacity:"1"},"1");
+});
+$("#photo6").hover(function() {
+        $("#photo6").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo6").stop().animate({opacity:"1"},"1");
+});
+$("#photo7").hover(function() {
+        $("#photo7").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo7").stop().animate({opacity:"1"},"1");
+});
+$("#photo8").hover(function() {
+        $("#photo8").stop().animate({opacity:"0.3"},"0.5");
+},function() {
+       $("#photo8").stop().animate({opacity:"1"},"1");
+});
    
 });
