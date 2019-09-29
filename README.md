@@ -1,5 +1,5 @@
 # IP3
-# {Application Name}
+# DELANI STUDIOS
 #### {Brief description of application}, {Date of current version}
 #### By **{List of contributors}**
 ## Description

@@ -34,7 +34,7 @@ $(".product").click(function() {
    event.preventDefault();
  var name=$("#contact-name").val();
 var email=$("#contact-email").val();
-   if($("#user-name").val()==""){
+   if($("#contact-name").val()==""){
      alert("Please input name")
    }
    else if($("#contact-email").val()==""){
@@ -46,5 +46,18 @@ var email=$("#contact-email").val();
    else{
    alert("Thank you "+ name + "," + " your messege has been received and is being acted on. .");}
  });
+ /*portfolio section
+ $(".button").hover(function() {
+        $("#photo1").attr("#p1") 
+        },function(){ 
+        $("#photo1").attr("src","assets/portfolio/work1.jpg");
+        });*/
+        $(".photo1").mouseover(function()
+        (".photo1").css{"opacity','.2");
+        ),
+        function(){
+                $(".photo1").css()("opacity','1");
+        });
+ 
    
 });
