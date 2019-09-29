@@ -34,16 +34,10 @@ var email=$("#contact-email").val();
    alert("Thank you "+ name + "," + " your messege has been received and is being acted on. .");}
  });*/
  //portfolio section
- $("#photo1").hover(function() //on over
- { $("#photo1").attr("#p1"); 
-        },function(){ 
-        $("#photo1").attr("src","assets/portfolio/work1.jpg");
-        });
-
-                $("#work1").mouseover(function(){
-                  $("#overlay").show();
+            $("#photo2").mouseover(function(){
+                $("#p2").toggle();
                 }).mouseout(function(){
-                  $("#overlay").hide();
+                  $("#p2").hide();
                 });
  
    
