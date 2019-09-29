@@ -15,21 +15,8 @@ $(".product").click(function() {
         
 
 
-//contact us form inputs
-        /*$("#blanks form").submit(function(event) {
-                var personInput = $("input#contact-name").val();
-                var emailInput = $("input#contact-email").val();
-                var messageInput=$("input#contact-message").val();
-
-                $(".contact-name").text(personInput);
-                $(".contact-email").text(emailInput);
-                $(".contact-message").text(messageInput);
-
-                $("#message").show();
-        
-                event.preventDefault();
-        });*/
- $("#sbmt1").click(function(event)
+//form inputs
+ /*$(".sbmt1").click(function(event)
  {
    event.preventDefault();
  var name=$("#contact-name").val();
@@ -45,19 +32,19 @@ var email=$("#contact-email").val();
    }
    else{
    alert("Thank you "+ name + "," + " your messege has been received and is being acted on. .");}
- });
- /*portfolio section
- $(".button").hover(function() {
-        $("#photo1").attr("#p1") 
+ });*/
+ //portfolio section
+ $("#photo1").hover(function() //on over
+ { $("#photo1").attr("#p1"); 
         },function(){ 
         $("#photo1").attr("src","assets/portfolio/work1.jpg");
-        });*/
-        $(".photo1").mouseover(function()
-        (".photo1").css{"opacity','.2");
-        ),
-        function(){
-                $(".photo1").css()("opacity','1");
         });
+
+                $("#work1").mouseover(function(){
+                  $("#overlay").show();
+                }).mouseout(function(){
+                  $("#overlay").hide();
+                });
  
    
 });
