@@ -35,7 +35,7 @@ var email=$("#contact-email").val();
  });
  //portfolio section
                 
- $("#photo1").hover(function() {
+$("#photo1").hover(function() {
         $("#photo1").stop().animate({opacity:"0.3"},"0.5");
 },function() {
         $("#photo1").stop().animate({opacity:"1"},"1");
@@ -75,5 +75,6 @@ $("#photo8").hover(function() {
 },function() {
        $("#photo8").stop().animate({opacity:"1"},"1");
 });
+
    
 });
