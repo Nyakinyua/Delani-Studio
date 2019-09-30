@@ -37,6 +37,8 @@ var email=$("#contact-email").val();
                 
 $("#photo1").hover(function() {
         $("#photo1").stop().animate({opacity:"0.3"},"0.5");
+        $("#p1").hide();
+         $(".p1").show();
 },function() {
         $("#photo1").stop().animate({opacity:"1"},"1");
                });               
