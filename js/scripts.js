@@ -35,45 +35,57 @@ $(document).ready(function () {
         });
         //portfolio section
 
-        $("#photo1").hover(function () {
-                $("#photo1").stop().animate({ opacity: "0.3" }, "0.5");
-                $("#p1").hide();
-                $(".p1").show();
-        }, function () {
-                $("#photo1").stop().animate({ opacity: "1" }, "1");
-        });
+        // $("#photo1").hover(function () {
+                // $("#photo1").stop().animate({ opacity: 0.3 }, "0.5");
+                // $("#p1").hide();
+                // $(".p1").show();
+                $("#photo1").hover(function(){
+                       $("#p1").toggle()
+                });
+
+        // }
+        // }, function () {
+        //         $("#photo1").stop().animate({ opacity: "1" }, "1");
+        // });
         $("#photo2").hover(function () {
                 $("#photo2").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p2").toggle()
         }, function () {
                 $("#photo2").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo3").hover(function () {
                 $("#photo3").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p3").toggle()
         }, function () {
                 $("#photo3").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo4").hover(function () {
                 $("#photo4").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p4").toggle()
         }, function () {
                 $("#photo4").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo5").hover(function () {
                 $("#photo5").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p5").toggle()
         }, function () {
                 $("#photo5").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo6").hover(function () {
                 $("#photo6").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p6").toggle()
         }, function () {
                 $("#photo6").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo7").hover(function () {
                 $("#photo7").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p7").toggle()
         }, function () {
                 $("#photo7").stop().animate({ opacity: "1" }, "1");
         });
         $("#photo8").hover(function () {
                 $("#photo8").stop().animate({ opacity: "0.3" }, "0.5");
+                $("#p8").toggle()
         }, function () {
                 $("#photo8").stop().animate({ opacity: "1" }, "1");
         });

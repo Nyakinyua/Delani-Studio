@@ -63,9 +63,15 @@
 #message{
     display:none;
 }
-#p1{
+#p2,#p1,#p3,#p4,#p5,#p6,#p7,#p8{
     background-color: transparent;
-    color:black;
+    color:white;
+    font-size: 25px;
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+
 }
 body{
     font-family: 'Boogaloo', cursive;
