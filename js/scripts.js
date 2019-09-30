@@ -31,7 +31,7 @@ var email=$("#contact-email").val();
      alert("Please input your message")
    }
    else{
-   alert("Thank you "+ name + "," + " your messege has been received and is being acted on. .");}
+   alert("Thank you "+ name + "," + " for reaching out. Your messege has been received and is being acted on. .Always keep it Delani Studios.");}
  });
  //portfolio section
                 

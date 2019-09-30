@@ -1,27 +1,38 @@
 # IP3
 # DELANI STUDIOS
 #### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+#### By ****
 This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
 ## Project setup instructions
 To start using this project use the following commands:
-- git clone https://github.com/moringaschool/hello-world.git
-- cd hello-world
+- git clone https://github.com/jonnygovish/IP3.git
+- cd 
 - atom .
 - code . [//]: # (this is if Visual Studio Code is your preferred text editor)
 
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+* The site is not responsive enough for some devices. 
+* mail chimp API does not function properly.
+* Portfolio section doesn't give proper description of displayed images
 ## Technologies Used
--HTML5
--CSS
--Bootstrap
--jQuery
--markdown
+* [HTML5]
+* [CSS]
+* [Bootstrap]
+* [jQuery](
+* markdown
+
+
+## BDD
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+|  Enter your name  |   Nyakinyua wanjiru |     |
+| Enter your Email Address  | wanyakinyua968@gmail.com |   |
+| Enter your message or comment   |  I'd like you to design my webpage     |     |
+| Press Submit|     |Pop up "Thank you Nyakinyua Wanjiru for reaching out. Your message has been received and is being acted upon. Always keep it Delani Studios .|
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+For questions and contributions towards the project, feel free to contact me via  email at [wanyakinyua968@@gmail.com]
 ## License info
 MIT License
 
-Copyright (c) {year} **{List of contributors or company name}**
+Copyright (c) {year} **Nyakinyua**
   
